@@ -184,17 +184,3 @@ int main()
 
     return 0;
 }
-
-// player moje da kupuva ot dyskata propertita - gotovo
-// znae se koi e ownera - gototo
-// cqlata karta - gotovo
-// zarche - gotovo
-// kyshti - pochti gotovo
-// da moje samo kogato imash vsichki ot edin cvqt
-// funcionalnost na poletata // za naema - int rent() { swhitch(houses) ... } v squares
-// asset money
-// auction
-// trade
-// prodavane
-// umirane
-// textove
