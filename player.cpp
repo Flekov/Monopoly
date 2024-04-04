@@ -53,12 +53,12 @@ void Player::giveRent(Player &pb)
     pb.cash += current->rent();
 }
 
-void Player::buyHouse(int propertyNum) // kupuva kydet ne moje
+void Player::buyHouse(int propertyNum)
 {
     if (propertyNum < properties.size() && propertyNum >= 0)
     {
         properties[propertyNum]->setHouses(properties[propertyNum]->getHouses() + 1);
-        cash -= 100; // da se opravi
+        cash -= 100;
         std::cout << "You bought successfully!\n";
         return;
     }
