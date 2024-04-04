@@ -52,7 +52,7 @@ private:
     bool isBought;
     std::string owner;
     int houses;
-    int priceForHouse; // da se opravi
+    int priceForHouse;
 
     std::string printType(types type);
 };
