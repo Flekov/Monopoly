@@ -112,7 +112,7 @@ bool Square::bought()
     return isBought;
 }
 
-int Square::rent() // da se opravi
+int Square::rent()
 {
     switch (houses)
     {
